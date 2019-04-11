@@ -45,7 +45,7 @@ function eraseitem(){
 }
 function additem(){
     var input = document.getElementById('input')
-    var item = input.Value;
+    var item = input.value;
     ul = document.getElementById('list');
     var textnode = document.createTextNode(item)
 
